@@ -3,14 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>sabersauce&#39;s blog</title>
+  <title>squashFS 文件系统 | sabersauce&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="sabersauce's blog">
-<meta property="og:url" content="http://sabersauce.github.io/index.html">
+  <meta name="description" content="squashFS 文件系统简介Squashfs（.sfs）是一套供Linux核心使用的GPL开源只读压缩文件系统。支持的压缩方式有gzip、lzma1、lzma2(xz)、lzo、lz4它有以下特性
+
+数据、目录、文件节点(inodes)均被压缩存储完整的uid/gid和文件创建时间支持最大2^64字节大小的文件文件节点(inode)和目录数据都被高度压缩，得到的数据以字节为分界，每个被压缩的文件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="squashFS 文件系统">
+<meta property="og:url" content="http://sabersauce.github.io/2016/07/28/squashFS-文件系统/index.html">
 <meta property="og:site_name" content="sabersauce's blog">
+<meta property="og:description" content="squashFS 文件系统简介Squashfs（.sfs）是一套供Linux核心使用的GPL开源只读压缩文件系统。支持的压缩方式有gzip、lzma1、lzma2(xz)、lzo、lz4它有以下特性
+
+数据、目录、文件节点(inodes)均被压缩存储完整的uid/gid和文件创建时间支持最大2^64字节大小的文件文件节点(inode)和目录数据都被高度压缩，得到的数据以字节为分界，每个被压缩的文件">
+<meta property="og:updated_time" content="2016-07-28T06:00:57.522Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="sabersauce's blog">
+<meta name="twitter:title" content="squashFS 文件系统">
+<meta name="twitter:description" content="squashFS 文件系统简介Squashfs（.sfs）是一套供Linux核心使用的GPL开源只读压缩文件系统。支持的压缩方式有gzip、lzma1、lzma2(xz)、lzo、lz4它有以下特性
+
+数据、目录、文件节点(inodes)均被压缩存储完整的uid/gid和文件创建时间支持最大2^64字节大小的文件文件节点(inode)和目录数据都被高度压缩，得到的数据以字节为分界，每个被压缩的文件">
   
     <link rel="alternate" href="/atom.xml" title="sabersauce&#39;s blog" type="application/atom+xml">
   
@@ -59,9 +69,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-squashFS-文件系统" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-squashFS-文件系统" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/07/28/squashFS-文件系统/" class="article-date">
   <time datetime="2016-07-28T02:08:00.000Z" itemprop="datePublished">2016-07-28</time>
@@ -74,8 +82,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/28/squashFS-文件系统/">squashFS 文件系统</a>
+    <h1 class="article-title" itemprop="name">
+      squashFS 文件系统
     </h1>
   
 
@@ -150,47 +158,19 @@ long long        lookup_table_start;
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-My-First-Post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/07/24/My-First-Post/" class="article-date">
-  <time datetime="2016-07-24T03:02:22.000Z" itemprop="datePublished">2016-07-24</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/24/My-First-Post/">My First Post</a>
-    </h1>
+    <a href="/2016/07/24/My-First-Post/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">My First Post</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>这是我的第一篇blog<br>在经历了自己写blog、自己买空间搭blog之后，我终于投向了github的怀抱，在这里，向大家分享我的各种收获<br>这里的所有文章，在保留作者id的情况下可以随意转载<br>同样，如果这里有内容侵犯了他人的权益，请联系我<br>我的id：sabersauce<br>我的email：linxy95@gmail.com</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://sabersauce.github.io/2016/07/24/My-First-Post/" data-id="cir5ws30d00011gzik35ilb5n" class="article-share-link">Partager</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
 
 </section>
         
